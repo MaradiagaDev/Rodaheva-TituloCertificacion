@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ContenedorCentral {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.PrimerDivCertificado {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #0C4BD2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.PrimerCuadradoDecorativo {
+    position: absolute;
+    width: 95%;
+    padding-top: 95%;
+    background-color: #D4AC0D;
+    transform: rotate(45deg);
+}
+
+.SegundoCuadradoDecorativo {
+    position: absolute;
+    width: 90%;
+    padding-top: 90%;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+}
+
+.TercerCuadradoDecorativo {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border: #B7950B solid 5px;
+}
+
+.ContenedorTexto {
+    position: absolute;
+    background-color: #ffffff;
+    width: 93%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.txtPrincipal {
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txtAtencionAlcliente {
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.OtorgadoContent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.ContentQr {
+    background-color: #D4AC0D;
+    width: 15%;
+    aspect-ratio: 1/1;
+    transform: rotate(45deg);
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.QrImage {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+}
+
+.TxtOtorgado {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: 1.8vw;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.TxtNombreCursivo {
+    position: absolute;
+    left: auto;
+    width: 60%;
+    right: auto;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 5vw;
+    padding-bottom: 1px;
+    border-bottom: black solid 2px;
+}
+
+.ContenedorCentra {
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Primerborde {
+    position: absolute;
+    width: 70%;
+    aspect-ratio: 1/1;
+    border: 1px solid #D4AC0D;
+}
+.Segundoborde{
+    position: absolute;
+    width: 63%;
+    aspect-ratio: 1.55/2;
+    border: 1px solid #D4AC0D;
+}
+.CruzUno {
+    position: absolute;
+    width: 45%;
+    aspect-ratio: 1/3;
+    background-color: #ffffff;
+}
+.CruzDos {
+    position: absolute;
+    width: 102%;
+    aspect-ratio: 2/1;
+    background-color: #ffffff;
+} 
+
+.ContenedorEsquinas {
+    position: absolute;
+    right: 1%;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenedorFoto
+{
+    position:absolute;
+    aspect-ratio: 1/1;
+    width: 63%;
+}
+
+.ContenedorFotoDos
+{
+    position:absolute;
+    aspect-ratio: 1/1;
+    width: 63%;
+    background-color:#D4AC0D;
+    border-radius:  100px 100px 100px 0px;
+}
+
+.ContenedorCircular{
+    position: absolute;
+    aspect-ratio: 1/1;
+    width: 55%;
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+
+.LetrasCertificado{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:1.2vw ;
+}
+
+.ContenedorFirmas
+{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: space-around;
+align-items: end;
+}
+
+.FirmaUno{
+    width: 20%;
+    height: 80%;
+    background-color: #ffffff;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.FirmaDos{
+    width: 20%;
+    height: 80%;
+    background-color: #ffffff;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.FirmaTres{
+    width: 20%;
+    height: 80%;
+    background-color: #ffffff;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ImgEmpresa{
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.GrupoEmpresarial{
+    font-size: 1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+.TxtNombreFirma{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.8vw;
+    border-bottom: black solid 1px;
+    padding: 0;
+}
+.ImagenLogoUno{
+    background-color:aqua;
+    width: 40%;
+    aspect-ratio: 1/1;
+}
+.ImagenLogoDos{
+    background-color:black;
+    width: 40%;
+    aspect-ratio: 1/1;
+}
+.SubtitulosGrupo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9vw;
+}
+.NegritasUno{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+}
+@media only screen and (orientation: portrait) {
+    .PrimerDivCertificado {
+        height: 40%;
+    }
+}
